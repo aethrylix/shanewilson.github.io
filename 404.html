@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" class="bg-neutral-100 text-neutral-900">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Coming Soon | Shane Wilson</title>
+
+    <!-- Lexend font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ["Lexend", "ui-sans-serif", "system-ui"],
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+
+  <body
+    class="min-h-screen flex flex-col items-center justify-center font-sans bg-neutral-100 text-neutral-900 px-6 text-center"
+  >
+    <h1 class="text-3xl sm:text-4xl font-semibold mb-6">Coming Soon</h1>
+    <p class="text-base sm:text-lg text-neutral-600 max-w-md mb-8">
+      The page you’re looking for is under construction. Thanks for your
+      patience — check back soon!
+    </p>
+    <a
+      href="index.html"
+      class="text-blue-600 underline hover:text-blue-800 transition-colors"
+    >
+      ← Back to homepage
+    </a>
+  </body>
+</html>
